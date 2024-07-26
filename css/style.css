@@ -16,3 +16,15 @@ form{
 
     gap: 20px;
 }
+
+#txtSearch{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    border-style: solid;
+}
+
+#btn{
+    align-self: center;
+    width: 100px;
+    
+}
