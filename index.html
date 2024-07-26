@@ -5,13 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Google</title>
+
+
+    <style>
+body{
+    background-color: white;
+}
+
+#Hola{
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 20px;
+}
+#lucky{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    right: 250px;
+    align-items: center;
+    
+}
+
+
+    </style>
+
 </head>
 <body>
+    <h1 id="Hola">Hola</h1>
   <div class="container">
       <form action="">
+
           <img src="https://www.google.com/logos/doodles/2024/paris-games-begin-6753651837110444.3-law.gif" alt="google logo">
           <input type="text" name="" id="txtSearch" placeholder="Buscar">
           <input type="button" id="btn" value="Buscar">
+      </form>
+      <form id="lucky">
+        <a href="https://www.google.com/search?q=snake+game&sca_esv=868ce55768cd652f&rlz=1C1VDKB_esNI1058NI1058&sxsrf=ADLYWII0FBXA-c7bTACAtIJvwq_kr7zLkg%3A1722032390393&ei=BiGkZrriF9iykvQPr6W1iAU&ved=0ahUKEwi6_a7H3sWHAxVYmYQIHa9SDVEQ4dUDCBA&uact=5&oq=snake+game&gs_lp=Egxnd3Mtd2l6LXNlcnAiCnNuYWtlIGdhbWUyChAjGIAEGCcYigUyChAAGIAEGEMYigUyBRAAGIAEMgUQLhiABDIFEAAYgAQyBRAuGIAEMgUQABiABDIIEAAYgAQYywEyCBAuGIAEGMsBMggQABiABBjLAUiMGFDHD1iqF3AEeAGQAQCYAYYBoAHECKoBAzAuObgBA8gBAPgBAZgCDaACrgnCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICCBAAGIAEGLEDwgILEC4YgAQY0QMYxwHCAgsQABiABBixAxiDAcICCxAAGIAEGLEDGIoFwgINEAAYgAQYsQMYQxiKBcICEBAAGIAEGLEDGEMYgwEYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIKEC4YgAQYQxiKBcICEBAuGIAEGLEDGEMY1AIYigXCAgcQABiABBgKmAMAiAYBkAYTugYGCAEQARgJugYGCAIQARgIkgcDNC45oAfJfw&sclient=gws-wiz-serp">
+            <input type="button" value="I'm Feeling Lucky">
+        </a>
+
       </form>
   </div>
 </body>
