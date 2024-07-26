@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-color: #fcfcfa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 30px;
+    width: 90%;
+}
+.fild{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    width: 85%;
+    height: 2em;
+}
+
+.icon1{
+    margin-left: 8px;
+}
+
+input{
+    margin: 0.5em;
+}
+#informacion{
+    padding: 0.5em;
+    width: 90%;
+    border: none;
+    border-radius: 15px;
+}
+#buscar{
+    background-color: #2e2f30;
+    border-radius: 25px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0.8em;
+    width: 50%;
+    border: none;
+}
